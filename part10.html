@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+    <link rel="stylesheet" href="part10.css">
+</head>
+<body>
+    <!-- Learning Events
+     Example: Button Click Event--> 
+     <button>Click Me!</button> 
+<hr>
+     <!-- Ex2: Double Click Event(ondblclick)--> 
+      <div id="colorbox"></div>
+<hr>
+<input type="text" id="myInput" placeholder="Click inside me" style="padding: 10px;">  
+
+<!-- Mouse events--> 
+ <div id="card">
+  <p id="cardText">Hello!</p>
+</div>
+
+<input type="text" id="textInput" placeholder="Type something">
+<br><br>
+<button id="changeTextBtn">Change Text</button>
+<hr>
+<hr>
+<!-- "this " in event listener-->
+<button id="btn1">Click Me</button> 
+
+<!-- Keyboards EventListener
+ 1.Keydown-->  
+ <input type="text" id="keyDownInput" placeholder="Type something...">
+
+<!-- 2.keyup: --> 
+ <input type="text" id="keyUpInput" placeholder="Type something...">
+ <hr>
+ <hr>
+
+ <!-- Form event Listeners--> 
+  <form id="myForm">
+  <input type="text" placeholder="Your name" required>
+  <button type="submit">Submit</button>
+</form>
+ <hr>
+<!-- Extract Form Data
+ Example1--> 
+
+ <!-- Extract Data using ".value"--> 
+  <form  id="myform">
+    <input type="text" name="name" id="name" placeholder="your Name">
+    <input type="email" name="email" id="email" placeholder="your email" >
+    <button type="submit">Submit</button>
+  </form> 
+<hr>
+  <!-- Example: Change event on input--> 
+   <input type="text" id="nameInput" placeholder="Enter your name"> 
+<!-- Show typed value live--> 
+<input type="text" id="username" placeholder="Type your name">
+<p id="output"></p>
+
+    <script src="part10.js"></script>
+</body>
+</html>

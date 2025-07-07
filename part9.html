@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>learning DOM here</title> 
+    <link rel="stylesheet" href="part9.css">
+</head>
+<body> 
+    <!-- Example of getElementById("...")
+    <h1 id="heading">Hello world!</h1> 
+    <button onclick="changeText()">Click Me</button> 
+    <hr>
+    <p id="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid maxime rem fugit excepturi reprehenderit sint doloribus quaerat doloremque porro quas, delectus esse officiis? Nam repellendus illum, adipisci nisi mollitia ut.
+    Nihil laborum explicabo similique officiis, aspernatur ipsam, omnis incidunt voluptatem, ad beatae dignissimos accusantium odit expedita aliquam? Sed, excepturi ratione, quisquam est porro laborum magnam fuga dolorum repellendus corrupti dolor.
+    Deserunt praesentium ducimus voluptas, beatae cupiditate corporis nihil facere hic fuga officia. Fuga iusto, architecto porro dolores repellat eius rerum explicabo qui, nisi dolor esse ex cum, unde veritatis totam?
+    Culpa amet praesentium sapiente id. Magnam aliquam incidunt nostrum repellendus debitis alias laudantium unde deserunt sapiente, ipsa accusantium numquam molestias laborum voluptas! Maxime, labore id alias totam dolore laboriosam ratione?</p> 
+    <button onclick="updatePara()">Click Me!</button> -->
+    <hr>
+    <hr>
+    <!-- Example of getElementByClassName("...") 
+     <div class="box">Box1</div>
+     <div class="box">Box2</div>
+     <div class="box">Box3</div> 
+
+     <button onclick="changeBoxes()"> Change Boxes</button>
+     <hr>
+     <hr> 
+     <div class="msg">Notification</div>
+     <div class="msg">Send Email</div>
+     <div class="msg">send message</div> 
+     <button onclick="changemsg()">Click Me!</button> 
+
+     <hr><hr>
+     <!-- Example of getElementByTagName()
+      <p>this is paragrapg 1</p>
+      <p>this is paragrapg 2</p>
+      <p>this is paragrapg 3</p> 
+      <button onclick="changeParagraphs()">Change all Paragraphs</button> 
+      
+      <h2>announcement1</h2>
+      <h2>
+    announcement2
+      </h2>
+      <h2>announcement3</h2> 
+      <button onclick="AnnClose()">"Ann change after a Click!</button>
+
+
+      <hr><hr>
+      <!-- Example of queryselector
+       <p class="info">Hello1</p>
+       <p class="info">Hello2</p>
+       <p class="info">Hello3</p> 
+<hr>
+       <p class="title">Welcome11</p>
+       <p class="title">Welcome12</p>
+       <p class="title">Welcome13</p> 
+       <button onclick="changefirst()">Click Me!</button> 
+
+       <hr>
+       <hr>
+        <!-- Example of querySelectorAll()
+       <p class="note">Note1</p>
+       <p class="note">Note2</p>
+       <p class="note">Note3</p>
+       <button onclick="highlightNotes()">Highlight All Notes</button> 
+<hr>
+<hr>
+       <!-- inner Text Examples
+       <p id="para1">Hello <span style="display:none;">Kanika</span></p>
+
+        example of InnerText 
+        <p id="para2">Hello <span style="display:none;">Kanika</span></p> --> 
+
+        <!-- Example of inner HTML 
+         <p id="para3">Hello <span style="display:none;">Kanika</span></p>--> 
+
+         <p id="demo">
+    Hello 
+    <span style="display: none;">Kanika</span>
+  </p>
+
+  <button onclick="showText()">Check Text</button>
+
+
+
+
+<!-- Manipulate Attribute--> 
+ <img id="myImg" src="flower Image.jpg" alt="Flower Image:">
+ <button onclick="changeImage()">Change Image</button> 
+ 
+ 
+
+ <!-- ClassList Methods Examples-->  
+  <!-- Ex1: Adds a class to an element --> 
+   <p id="para">Hello world!</p>
+   <button onclick="addClass()">Add Class</button> 
+   <hr>
+<!-- Ex2: Toggle a Class --> 
+<button onclick="toggleTheme()">Toggle Dark Mode</button>
+<hr>
+<!--Exa 3: Check if a Class Exists-->
+<div id="myBox" class="active">This is a box.</div>
+<button onclick="checkClass()">Check if Active</button> 
+<hr>
+<!--Example 4: Replace One Class with Another-->
+<div id="themeBox" class="light-theme">Theme Box</div>
+<button onclick="switchTheme()">Switch Theme</button>
+ 
+ <hr>
+  <hr> 
+
+
+<!-- DOM Navigation--> 
+   <!--Ex1: parentElement
+    <div id="outer">
+  <p id="inner">Hello</p></div> 
+<hr>--> 
+
+  <div id="myDiv"></div>
+   <script src="part9.js"></script>
+</body>
+</html>
